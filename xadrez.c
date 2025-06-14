@@ -28,5 +28,20 @@ int main() {
         j++;
     } while (j < casasRainha);
 
+    int casasCavalo = 1;
+
+    // Movimentaçao da Cavalo (movimento em L)
+       printf("\nMovimento do Cavalo:\n");
+    while (casasCavalo--)
+        {
+            for (int i = 0; i < 2; i++) {
+                printf("Baixo\n");
+            }  
+            printf("Esquerda\n");  
+        }
+    {
+        
+    }
+    
 
 }
